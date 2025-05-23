@@ -36,7 +36,7 @@ contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
         tokenEvolutionStages[newTokenId] = 1;
         evolutionStageURIs[newTokenId][1] = initialURI;
         tokenPrices[newTokenId] = price;
-        emit NFTListed(newTokenId, msg.sender, price);
+        emit NFTListed(newTokenId, msg.sender, price)
         return newTokenId;
     }
 
@@ -68,7 +68,7 @@ contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
             payable(msg.sender).transfer(msg.value - price);
         }
         emit NFTPurchased(tokenId, seller, msg.sender, price);
-    }
+    
 
     function delistNFT(uint256 tokenId) external {
         require(ownerOf(tokenId) == msg.sender, "Not the owner");
