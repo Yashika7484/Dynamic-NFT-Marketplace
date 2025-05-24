@@ -104,7 +104,11 @@ contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
         require(bytes(uri).length > 0, "URI for stage not found");
         return uri;
     }
-
+  function updateListingPrice(uint256 tokenId, uint256 newPrice) external {
+        require(ownerOf(tokenId) == msg.sender, "Not the owner");
+        require(newPrice > 0, "Price must be greater than zero");
+        tokenPrices[tokenId] = newPrice;
+        emit NFTListed(tokenId, msg.sender, newPrice);
     function getListingPrice(uint256 tokenId) external view returns (uint256) {
         return tokenPrices[tokenId];
     }
