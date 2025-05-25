@@ -122,7 +122,7 @@ contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
     // 🔥 New Functions Added Below 🔥
 
     /**
-     * @dev Relist a previously delisted NFT
+
      */
     function relistNFT(uint256 tokenId, uint256 price) external {
         require(ownerOf(tokenId) == msg.sender, "Not the owner");
