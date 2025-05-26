@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 /**
  * @title DynamicNFTMarketplace
  * @dev A marketplace for dynamic NFTs that can evolve over time
- */
+ *
 contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
