@@ -184,8 +184,7 @@ contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
             if (tokenPrices[i] > 0 && _exists(i)) {
                 ids[idx] = i;
                 prices[idx] = tokenPrices[i];
-                idx++;
-            }
+                
         }
 
         return (ids, prices);
