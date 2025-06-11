@@ -11,7 +11,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  */
 contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
     using Counters for Counters.Counter;
-    Counters.Counter private _tokenIds;
+    Counters.Counter private _tokenId
 
     // Mapping from token ID to listing price
     mapping(uint256 => uint256) public tokenPrices;
