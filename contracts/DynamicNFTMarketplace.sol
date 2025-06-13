@@ -48,7 +48,55 @@ contract DynamicNFTMarketplace is ERC721URIStorage, Ownable, ReentrancyGuard {
         emit NFTListed(newTokenId, msg.sender, price);
         return newTokenId;
     }
+// Create and list a new NFT
+    function createAndListNFT(string memory initialURI, uint256 price) external returns (uint256) {
+        require(price > 0, "Price must be greater than zero");
 
+        _tokenIds.increment();
+        uint256 newTokenId = _tokenIds.current();
+
+        _mint(msg.sender, newTokenId);
+        _setTokenURI(newTokenId, initialURI);
+
+        tokenEvolutionStages[newTokenId] = 1;
+        evolutionStageURIs[newTokenId][1] = initialURI;
+        tokenPrices[newTokenId] = price;
+
+        emit NFTListed(newTokenId, msg.sender, price);
+        return newTokenId;
+    }// Create and list a new NFT
+    function createAndListNFT(string memory initialURI, uint256 price) external returns (uint256) {
+        require(price > 0, "Price must be greater than zero");
+
+        _tokenIds.increment();
+        uint256 newTokenId = _tokenIds.current();
+
+        _mint(msg.sender, newTokenId);
+        _setTokenURI(newTokenId, initialURI);
+
+        tokenEvolutionStages[newTokenId] = 1;
+        evolutionStageURIs[newTokenId][1] = initialURI;
+        tokenPrices[newTokenId] = price;
+
+        emit NFTListed(newTokenId, msg.sender, price);
+        return newTokenId;
+    }// Create and list a new NFT
+    function createAndListNFT(string memory initialURI, uint256 price) external returns (uint256) {
+        require(price > 0, "Price must be greater than zero");
+
+        _tokenIds.increment();
+        uint256 newTokenId = _tokenIds.current();
+
+        _mint(msg.sender, newTokenId);
+        _setTokenURI(newTokenId, initialURI);
+
+        tokenEvolutionStages[newTokenId] = 1;
+        evolutionStageURIs[newTokenId][1] = initialURI;
+        tokenPrices[newTokenId] = price;
+
+        emit NFTListed(newTokenId, msg.sender, price);
+        return newTokenId;
+    }
     // Batch create and list NFTs
     function batchCreateAndListNFTs(string[] memory initialURIs, uint256[] memory prices) external {
         require(initialURIs.length == prices.length, "Mismatched inputs");
