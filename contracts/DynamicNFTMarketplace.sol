@@ -9,14 +9,6 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
  * @title DynamicNFTMarketplace
  * @dev A marketplace for dynamic NFTs that evolve through stages.
  */
-    using Counters for Counters.Counter;
-    Counters.Counter private _tokenId
-
-    // Mapping from token ID to listing price
-    mapping(uint256 => uint256) public 
-    // Mapping from token ID to its current evolution stage
-    mapping(uint256 => uint256) public tokenEvolutionStages;
-
     // Mapping from token ID to stage => URI
     mapping(uint256 => mapping(uint256 => string)) public evolutionStageURIs;
 
