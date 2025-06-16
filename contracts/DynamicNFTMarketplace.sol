@@ -17,7 +17,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
     event NFTDelisted(uint256 indexed tokenId, address indexed owner);
     event NFTPurchased(uint256 indexed tokenId, address indexed seller, address indexed buyer, uint256 price);
     event NFTEvolved(uint256 indexed tokenId, uint256 newStage);
-    event NFTRelisted(uint256 indexed tokenId, uint256 price);
+    event NFTRelisted(uint256 indexed tokenId, uint256 
     event NFTBurned(uint256 indexed tokenId, address indexed owner);
 
     constructor() ERC721("DynamicNFT", "DNFT") {}
