@@ -77,7 +77,8 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
         _tokenIds.increment();
         uint256 newTokenId = _tokenIds.current();
-
+ _tokenIds.increment();
+        uint256 newTokenId = _tokenIds.current();
         _mint(msg.sender, newTokenId);
         _setTokenURI(newTokenId, initialURI);
 
