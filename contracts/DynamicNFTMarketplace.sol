@@ -7,8 +7,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 /**
  * @title DynamicNFTMarketplace
- * @dev A marketplace for dynamic NFTs that evolve through stages.
- */
+ * @dev A marketplace for dynamic NFTs that evolve through stag
     // Mapping from token ID to stage => URI
     mapping(uint256 => mapping(uint256 => string)) public evolutionStageURIs;
 
