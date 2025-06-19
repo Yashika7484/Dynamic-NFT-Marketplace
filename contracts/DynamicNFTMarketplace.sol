@@ -23,11 +23,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
     // Create and list a new NFT
     function createAndListNFT(string memory initialURI, uint256 price) external returns (uint256) {
-        require(price > 0, "Price must be greater than zero");
-
-        _tokenIds.increment();
-        uint256 newTokenId = _tokenIds.current();
-
+        require(price > 0, "Price must be greater than zero
         _mint(msg.sender, newTokenId);
         _setTokenURI(newTokenId, initialURI);
 
