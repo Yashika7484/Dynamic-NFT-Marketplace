@@ -96,13 +96,6 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
             _mint(msg.sender, newTokenId);
             _setTokenURI(newTokenId, initialURIs[i]);
-
-            tokenEvolutionStages[newTokenId] = 1;
-            evolutionStageURIs[newTokenId][1] = initialURIs[i];
-            tokenPrices[newTokenId] = prices[i];
-
-            emit NFTListed(newTokenId, msg.sender, prices[i]);
-        }
     }
 
     // Purchase an NFT
