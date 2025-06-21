@@ -6,10 +6,6 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 /**
- * @title DynamicNFTMarketplace
- * @dev A marketplace for dynamic NFTs that evolve through stag
-    // Mapping from token ID to stage => URI
-    mapping(uint256 => mapping(uint256 => string)) public evolutionStageURIs;
 
     // Events
     event NFTListed(uint256 indexed tokenId, address indexed seller, uint256 price);
