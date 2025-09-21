@@ -1,4 +1,4 @@
-Dynamic NFT Marketplace-
+ Dynamic NFT Marketplace- 
 
 
 Project Description-
@@ -18,19 +18,19 @@ Buy/Sell Dynamic NFTs: Complete marketplace for trading dynamic NFTs
 Price Discovery: Support for both fixed price and auction-style listings
 Smart Pricing: Automatic price adjustments based on NFT evolution stages
 
-🔄 Evolution Engine
+🔄 Evolution Engine-
 
 Automatic Updates: Smart contracts that automatically update NFT properties
 Interaction Tracking: Monitor and reward user engagement with NFTs
 Staking Rewards: NFTs can earn rewards and evolve while staked
 
-🛡️ Security & Ownership
+🛡️ Security & Ownership-
 
 Decentralized: Built on blockchain for true ownership and transparency
 Royalty System: Automatic royalty distribution to original creators
 Verified Authenticity: Smart contract verification of all dynamic properties
 
-Future Scope
+Future Scope-
 Phase 1: Foundation (Current)
 
 ✅ Core marketplace functionality
