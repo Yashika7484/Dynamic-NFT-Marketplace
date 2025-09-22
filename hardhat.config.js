@@ -1,4 +1,4 @@
-// Hardhat configuration file for deploying and testing smart contracts.
+// Hardhat configuration file for
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
