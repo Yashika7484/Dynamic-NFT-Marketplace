@@ -1,4 +1,4 @@
-// Hardhat configuration file for
+// Hardhat
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
