@@ -1,4 +1,4 @@
- Dynamic NFT Marketplace- 
+ # Dynamic NFT Marketplace- 
 
 
 Project Description-
@@ -6,7 +6,7 @@ Dynamic NFT Marketplace is a revolutionary decentralized platform that enables t
 Project Vision
 Our vision is to create the next generation of NFTs that evolve and adapt over time, providing a more engaging and interactive experience for collectors and creators. We aim to bridge the gap between static digital assets and dynamic, living digital collectibles that grow and change with their owners.
 
-Key Features
+## Key Features
 
 🌟 Dynamic NFT Creation-
 
