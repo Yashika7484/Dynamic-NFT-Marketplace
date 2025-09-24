@@ -8,25 +8,25 @@ Our vision is to create the next generation of NFTs that evolve and adapt over t
 
 ## Key Features -
 
-🌟 Dynamic NFT Creation-
+### 🌟 Dynamic NFT Creation-
 
 Evolving Metadata: NFTs that can update their properties based on time, interactions, or external triggers
 Level System: NFTs can gain experience and level up through user interactions
 Seasonal Changes: Automatic property updates based on time or special events
 
-🛒 Marketplace Functionality-
+### 🛒 Marketplace Functionality-
 
 Buy/Sell Dynamic NFTs: Complete marketplace for trading dynamic NFTs
 Price Discovery: Support for both fixed price and auction-style listings
 Smart Pricing: Automatic price adjustments based on NFT evolution stages
 
-🔄 Evolution Engine-
+### 🔄 Evolution Engine-
 
 Automatic Updates: Smart contracts that automatically update NFT properties
 Interaction Tracking: Monitor and reward user engagement with NFTs
 Staking Rewards: NFTs can earn rewards and evolve while staked
 
-🛡️ Security & Ownership-
+### 🛡️ Security & Ownership-
 
 Decentralized: Built on blockchain for true ownership and transparency
 Royalty System: Automatic royalty distribution to original creators
