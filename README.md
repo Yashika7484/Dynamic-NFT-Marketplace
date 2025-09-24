@@ -32,8 +32,8 @@ Decentralized: Built on blockchain for true ownership and transparency
 Royalty System: Automatic royalty distribution to original creators
 Verified Authenticity: Smart contract verification of all dynamic properties
 
-Future Scope-
-Phase 1: Foundation (Current)
+## Future Scope-
+### Phase 1: Foundation (Current)
 
 ✅ Core marketplace functionality
 ✅ Basic dynamic NFT creation
