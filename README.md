@@ -60,13 +60,13 @@ Verified Authenticity: Smart contract verification of all dynamic properties
 🎨 Collaborative creation tools
 🚀 Metaverse compatibility
 
-Technology Stack-
+## Technology Stack-
 
-Smart Contracts: Solidity
-Development Framework: Hardhat
-Standards: ERC-721 (NFT), ERC-165 (Interface Detection)
-Security: OpenZeppelin Contracts
-Network: Core Blockchain Testnet 2
+- Smart Contracts: Solidity
+- Development Framework: Hardhat
+- Standards: ERC-721 (NFT), ERC-165 (Interface Detection)
+- Security: OpenZeppelin Contracts
+- Network: Core Blockchain Testnet 2
 
 Installation & Setup-
 
