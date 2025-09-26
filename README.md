@@ -68,13 +68,13 @@ Verified Authenticity: Smart contract verification of all dynamic properties
 - Security: OpenZeppelin Contracts
 - Network: Core Blockchain Testnet 2
 
-Installation & Setup-
+## Installation & Setup-
 
-Clone the repository
-Install dependencies: npm install
-Set up environment variables in .env
-Compile contracts: npm run compile
-Deploy to testnet: npm run deploy
+- Clone the repository
+- Install dependencies: npm install
+- Set up environment variables in .env
+- Compile contracts: npm run compile
+- Deploy to testnet: npm run deploy
 
 Smart Contract Architecture-
 The marketplace consists of three main components:
