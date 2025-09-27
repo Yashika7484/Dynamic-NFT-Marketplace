@@ -16,9 +16,9 @@ Seasonal Changes: Automatic property updates based on time or special events
 
 ### 🛒 Marketplace Functionality-
 
-Buy/Sell Dynamic NFTs: Complete marketplace for trading dynamic NFTs
-Price Discovery: Support for both fixed price and auction-style listings
-Smart Pricing: Automatic price adjustments based on NFT evolution stages
+- Buy/Sell Dynamic NFTs: Complete marketplace for trading dynamic NFTs
+- Price Discovery: Support for both fixed price and auction-style listings
+- Smart Pricing: Automatic price adjustments based on NFT evolution stages
 
 ### 🔄 Evolution Engine-
 
