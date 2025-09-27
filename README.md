@@ -22,9 +22,9 @@ Seasonal Changes: Automatic property updates based on time or special events
 
 ### 🔄 Evolution Engine-
 
-Automatic Updates: Smart contracts that automatically update NFT properties
-Interaction Tracking: Monitor and reward user engagement with NFTs
-Staking Rewards: NFTs can earn rewards and evolve while staked
+- Automatic Updates: Smart contracts that automatically update NFT properties
+- Interaction Tracking: Monitor and reward user engagement with NFTs
+- Staking Rewards: NFTs can earn rewards and evolve while staked
 
 ### 🛡️ Security & Ownership-
 
