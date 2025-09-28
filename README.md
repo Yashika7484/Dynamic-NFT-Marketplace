@@ -1,7 +1,7 @@
  # Dynamic NFT Marketplace- 
 
 
-Project Description-
+### Project Description-
 Dynamic NFT Marketplace is a revolutionary decentralized platform that enables the creation, trading, and evolution of NFTs with dynamic properties. Unlike traditional static NFTs, our marketplace supports NFTs that can change their attributes, metadata, and visual appearance based on time, user interactions, external data, or predefined conditions.
 Project Vision
 Our vision is to create the next generation of NFTs that evolve and adapt over time, providing a more engaging and interactive experience for collectors and creators. We aim to bridge the gap between static digital assets and dynamic, living digital collectibles that grow and change with their owners.
