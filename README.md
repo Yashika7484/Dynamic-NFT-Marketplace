@@ -76,12 +76,12 @@ Verified Authenticity: Smart contract verification of all dynamic properties
 - Compile contracts: npm run compile
 - Deploy to testnet: npm run deploy
 
-Smart Contract Architecture-
+## Smart Contract Architecture-
 The marketplace consists of three main components:
 
-DynamicNFT: Core NFT contract with evolving properties
-Marketplace: Trading platform for dynamic NFTs
-Evolution Engine: Automated system for NFT property updates
+- DynamicNFT: Core NFT contract with evolving properties
+- Marketplace: Trading platform for dynamic NFTs
+- Evolution Engine: Automated system for NFT property updates
 
 Contract Address:
 0x84d504becB14978CE5F83bC4b170D6c03033F9CE
