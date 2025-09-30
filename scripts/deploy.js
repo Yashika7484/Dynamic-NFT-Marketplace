@@ -3,7 +3,7 @@ const hre = require("hardhat");
 async function main() {
   console.log("Deploying DynamicNFTMarketplace contract...");
 
-  // Get the contract factory
+  // Get the contract Factory
   const DynamicNFTMarketplace = await hre.ethers.getContractFactory("DynamicNFTMarketplace");
   
   // Deploy the contract
@@ -33,3 +33,4 @@ main()
     console.error(error);
     process.exit(1);
   });
+
