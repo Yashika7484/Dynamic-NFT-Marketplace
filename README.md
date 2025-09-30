@@ -83,7 +83,7 @@ The marketplace consists of three main components:
 - Marketplace: Trading platform for dynamic NFTs
 - Evolution Engine: Automated system for NFT property updates
 
-Contract Address:
+### Contract Address:
 0x84d504becB14978CE5F83bC4b170D6c03033F9CE
 
 ![image](https://github.com/user-attachments/assets/eda02d31-578d-4ab7-97b3-ce77924dd553)
