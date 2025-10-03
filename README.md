@@ -68,7 +68,7 @@ Verified Authenticity: Smart contract verification of all dynamic properties
 - Security: OpenZeppelin Contracts
 - Network: Core Blockchain Testnet 2
 
-## Installation & Setup-
+### Installation & Setup-
 
 - Clone the repository
 - Install dependencies: npm install
