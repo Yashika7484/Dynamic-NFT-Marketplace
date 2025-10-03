@@ -76,7 +76,7 @@ Verified Authenticity: Smart contract verification of all dynamic properties
 - Compile contracts: npm run compile
 - Deploy to testnet: npm run deploy
 
-## Smart Contract Architecture-
+### Smart Contract Architecture-
 The marketplace consists of three main components:
 
 - DynamicNFT: Core NFT contract with evolving properties
