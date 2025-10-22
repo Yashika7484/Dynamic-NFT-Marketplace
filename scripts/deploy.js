@@ -17,7 +17,7 @@ async function main() {
   
   console.log("Deployment completed successfully!");
   
-  // For networks that support verification, you can uncomment this to verify the contract
+  // For networks that support verification, you can uncomment this to verify the contract.
   // console.log("Waiting for block confirmations...");
   // await marketplace.deployTransaction.wait(6);
   // console.log("Verifying contract...");
@@ -33,4 +33,5 @@ main()
     console.error(error);
     process.exit(1);
   });
+
 
