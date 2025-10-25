@@ -83,6 +83,14 @@ The marketplace consists of three main components:
 - Marketplace: Trading platform for dynamic NFTs
 - Evolution Engine: Automated system for NFT property updates
 
+### Dynamic Lore System
+NFT stories expand as they evolve. Their metadata updates include:
+
+- Achievements earned
+- Past owners and interactions
+- Major milestones in gameplay
+- Collectibles that tell their own legend.
+
 ### Contract Address:
 0x84d504becB14978CE5F83bC4b170D6c03033F9CE
 
