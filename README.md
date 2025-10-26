@@ -91,6 +91,18 @@ NFT stories expand as they evolve. Their metadata updates include:
 - Major milestones in gameplay
 - Collectibles that tell their own legend.
 
+### Off-chain Data + On-chain Integrity
+
+Use decentralized storage (IPFS, Arweave) for heavy media, authenticated via:
+
+- Merkle proofs
+
+- Hash-locking for metadata consistency
+
+Scalability meets immutability.
+
+🧠 Behavioral Traits
+
 ### Contract Address:
 0x84d504becB14978CE5F83bC4b170D6c03033F9CE
 
