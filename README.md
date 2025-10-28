@@ -99,7 +99,7 @@ Use decentralized storage (IPFS, Arweave) for heavy media, authenticated via:
 
 - Hash-locking for metadata consistency
 
-Scalability meets immutability.
+- Scalability meets immutability.
 
 🧠 Behavioral Traits
 
