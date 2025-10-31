@@ -1,8 +1,5 @@
-// 🌟 Dynamic NFT Marketplace Configuration
-// This file defines project metadata, dependencies, and scripts
-// for compiling, testing, and deploying smart contracts using Hardhat.
-
 {
+  "_comment": "Dynamic NFT Marketplace project configuration file.",
   "name": "Dynamic NFT Marketplace",
   "version": "1.0.0",
   "description": "",
