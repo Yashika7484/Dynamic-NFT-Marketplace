@@ -1,5 +1,5 @@
 // Hardhat configration file for deploying and testing smart Contracts
-// Requirments
+// Requirments for DNM
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
