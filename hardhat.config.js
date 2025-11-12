@@ -1,5 +1,5 @@
 // Hardhat configration file for deploying and testing smart Contracts
-// Requirments for DNM
+// Requirments for DNM (Dynamic NFT )
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
